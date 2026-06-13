@@ -1,0 +1,13 @@
+These are the changes made after the presentation
+
+Before:
+- Lack of dress code
+- Unstable camera locking
+- Lackluster UI visibility button
+- Bad UI
+
+After: 
+- Locking mechanism: imageTarget locks creating a stable scanning reducing jitter.
+- new dressCode object: A new object added for a new UI to show the dressCode of the birthday
+- Buttons: Instead of a visibility UI, each object now has their own interactive button for players to push alongside labels of what they are & colour coded to see if it could be interacted or not
+- UI redesign: UI had been remade completely to attract attention and create a more dream-like experience to entice people
