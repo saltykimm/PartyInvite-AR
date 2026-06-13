@@ -18,26 +18,9 @@ An interactive Augmented Reality (AR) experience built with **Unity** and **Vufo
 - **AR Library**: [Vuforia Engine 11.4.4](https://developer.vuforia.com/) (included locally as a `.tgz` package)
 - **Text Rendering**: TextMesh Pro
 
-## 📦 Getting Started
+## ⚙️Changes after Postpresentation
 
-### Prerequisites
-
-- Unity Hub and Unity Editor (compatible with version used in `ProjectSettings/ProjectVersion.txt`).
-- Git & Git LFS installed on your machine.
-
-### Installation
-
-1. Clone this repository:
-   ```bash
-   git clone <your-repository-url>
-   ```
-2. Open **Unity Hub**.
-3. Click **Add** -> **Add project from disk**.
-4. Select the `BirthdaySuprise` folder.
-5. Let Unity resolve and import the local Vuforia package (`Packages/com.ptc.vuforia.engine-11.4.4.tgz`).
-
-## 📁 Repository Structure
-
-- `Assets/`: Scenes, Prefabs, Shaders, and C# Scripts containing all the game logic.
-- `Packages/`: Project dependency definitions and local Vuforia package.
-- `ProjectSettings/`: Unity configuration settings.
+- **Locking mechanism**: imageTarget locks creating a stable scanning reducing jitter.
+- **dressCode**: A new object added for a new UI to show the dressCode of the birthday
+- **Buttons**: Instead of a visibilty UI, each object now has their own interactive buttoin for players to push alongside labels of what they are & colour coded to see if it could be interacted or not
+- **UI redesign**: UI had been remade completely to attract attention and create a more dream-like experience to entice people
